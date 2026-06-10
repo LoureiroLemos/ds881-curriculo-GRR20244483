@@ -39,3 +39,27 @@ h1, h2 {
 .skills-list strong {
   color: #bb9af7;
 }
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed var(--border-color);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+
+.social-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #7aa2f7;
+}
