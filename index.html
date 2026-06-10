@@ -1,13 +1,46 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>appteste</title>
+    <title>Meu Currículo | Desenvolvedor Backend</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="container">
+      <header>
+        <h1>Pedro T. L. G. de Lemos</h1>
+        <p class="subtitle">
+          Estudante de TADS | Foco em Backend (Node.js, Java) & Infra
+        </p>
+      </header>
+
+      <main>
+        <section id="sobre">
+          <h2>Sobre Mim</h2>
+          <p>
+            Desenvolvedor em formação apaixonado por arquitetura de sistemas,
+            bancos de dados (MySQL/PostgreSQL) e cultura DevOps. Busco
+            oportunidades de estágio no setor de tecnologia e fintechs para
+            aplicar conhecimentos práticos na construção de APIs escaláveis.
+          </p>
+        </section>
+
+        <section id="habilidades">
+          <h2>Stack Tecnológico</h2>
+          <ul class="skills-list">
+            <li>
+              <strong>Backend:</strong> Node.js, Express, Java, Spring Boot
+            </li>
+            <li>
+              <strong>Infraestrutura:</strong> Linux (Ubuntu/Mint), Docker,
+              GitHub Actions
+            </li>
+            <li><strong>Banco de Dados:</strong> MySQL, PostgreSQL</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>

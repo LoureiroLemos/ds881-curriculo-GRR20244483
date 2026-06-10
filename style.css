@@ -1,0 +1,41 @@
+:root {
+  --bg-color: #1a1b26;
+  --text-color: #a9b1d6;
+  --accent-color: #9ece6a;
+  --border-color: #414868;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.6;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: var(--accent-color);
+}
+
+.subtitle {
+  color: #7aa2f7;
+  font-weight: bold;
+}
+
+.skills-list {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skills-list strong {
+  color: #bb9af7;
+}

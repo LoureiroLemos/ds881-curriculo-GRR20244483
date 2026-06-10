@@ -16,7 +16,7 @@ Para iniciar o ambiente local:
    ```bash
    docker compose up -d --build
    ```
-2. Acesse no navegador: `http://localhost:8080`
+2. Acesse no navegador: `http://localhost:8080/ds881-curriculo-GRR20244483/`
 3. Para derrubar os contêineres: `docker compose down`
 
 ## Governança e Proteção de Branch
