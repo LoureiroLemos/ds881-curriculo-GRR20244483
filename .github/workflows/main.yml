@@ -27,7 +27,7 @@ jobs:
         run: npm install
 
       - name: Linter / Static Analysis
-        run: node --check main.js
+        run: find . -type f -name "*.js" -not -path "./node_modules/*" -exec node --check {} +
 
       - name: Build do projeto estático
         run: npm run build
